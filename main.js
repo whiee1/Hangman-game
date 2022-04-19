@@ -6,7 +6,7 @@ const resetBtn = document.querySelector(".reload");
 resetBtn.addEventListener("click", () => {
   window.location.reload();
 })
-let wrong_guesses_left = 7;
+let wrong_guesses_left = 8;
 let wrong = 0;
 
 let word = '';
@@ -24,8 +24,9 @@ const drawHiddenWord = (word, guess) => {
     }
   }
   else{ 
-    wrong_h3.innerText = `Du har ${wrong_guesses_left} liv kvar`
     wrong_guesses_left--;
+    wrong_h3.innerText = `Du har ${wrong_guesses_left} liv kvar`
+    
     
     if(wrong>0){
       stickman.innerHTML= `<img src="stickfigure/${wrong}.jpg" alt="stickman">`;

@@ -1,0 +1,68 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  max-width: 700px;
+}
+.wrong{
+  margin-top: 15px;
+  position: relative;
+  left: 15px;
+  
+}
+img{
+  width: 100px;
+  height: auto;
+}
+
+.hidden_word_container {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.line {
+  width: 30px;
+  border-bottom: 2px solid black;
+  margin: 5px;
+  display: inline-block;
+}
+.keys_container {
+  margin: 30px 0;
+}
+.key {
+  font-size: 18px;
+  font-weight: bold;
+  width: 48px;
+  height: 48px;
+  padding: 5px;
+  margin-right: 9px;
+  margin-bottom: 9px;
+  background-color: rgb(165, 205, 228);
+
+  box-shadow: 1px 5px 7px rgba(130, 143, 153, 0.644);
+  border-radius: 5px;
+}
+.key:hover,
+.reload:hover {
+  background-color: rgb(205, 222, 233);
+}
+.clickedBtn {
+  background-color: rgb(200, 204, 206);
+  color: rgb(1, 7, 19);
+  box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2),
+    inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
+}
+
+.winner {
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+  font-size: 60px;
+  text-align: center;
+}
+.reload {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgb(165, 205, 228);
+ 
+}
